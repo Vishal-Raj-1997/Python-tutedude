@@ -26,3 +26,28 @@ It combines both names with a space in between to form the full name.
 
 Finally, it prints a greeting message saying “Hello, [Full Name]! Welcome to the Python program.”
 This program takes the user’s name and gives a personalized welcome message.
+
+
+#######***Assignment - 02***######
+.......Task - 01.......
+
+It asks the user to enter a number and stores it in num.
+
+Using the modulus operator %, it checks the remainder when the number is divided by 2.
+
+If the remainder is 0, the number is even.
+
+Otherwise, the number is odd.
+
+It displays the result accordingly (Even Number or Odd Number).
+This program takes an integer input and tells whether it is an Even or Odd number.
+
+........Task - 02...........
+
+A variable sum is initialized with 0.
+
+A for loop runs through all integers from 1 to 50 (inclusive).
+
+In each iteration, the current number i is added to sum.
+
+After the loop ends, the program prints the total sum of all numbers from 1 to 50.
