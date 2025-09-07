@@ -1,4 +1,4 @@
-#Assignment - 01......
+**.......Assignment - 01......**
 
 ......Task - 01.....
 
@@ -80,3 +80,38 @@ The natural logarithm (base e) of the number using math.log().
 The sine value of the number (in radians) using math.sin().
 
 Finally, it prints all the calculated results.
+
+
+**<<<<<<<<<<<   Assignment - 04  >>>>>>>>>>>>>>**
+
+**...........Task 01 ...........**
+
+try block → Program tries to open the file sample.txt in read mode ("r").
+
+Loop through file → Each line is read one by one and printed using print(line.strip()).
+
+strip() removes extra spaces or newline characters.
+
+except FileNotFoundError → If the file is missing, instead of showing a Python error, it prints:
+
+
+
+**...........Task 02 ...........**
+
+User Input → Program asks user to write something (input()), but in this example, that input is not written directly into the file.
+
+Write to File (w mode) → The program opens output.txt in write mode and writes:
+
+Hello Python
+
+
+(Write mode overwrites the file if it already exists).
+
+Append to File (a mode) → Then, it re-opens the same file in append mode and adds:
+
+Learning file handling in Python.
+
+
+(Append mode always adds content at the end).
+
+Read File (r mode) → Finally, the program reads all the lines from output.txt and prints them on the screen.
