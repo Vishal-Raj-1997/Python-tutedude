@@ -115,3 +115,35 @@ Learning file handling in Python.
 (Append mode always adds content at the end).
 
 Read File (r mode) → Finally, the program reads all the lines from output.txt and prints them on the screen.
+
+
+
+***........Module_6 Assignment 5........**
+
+**......Task 1 ....**
+
+First, create a dictionary that keeps student names as keys and their marks as values.
+ Example: {"Sujit": 85, "Sonu": 78, "Manish": 92, "Vikash": 88, "Mohit": 95}
+
+Then, the program should ask the user to enter a student’s name.
+
+The program should check if that name exists in the dictionary.
+
+ .If it exists → show the marks.
+
+ .If it doesn’t → show a message like “Student not found.”
+
+ ===============================================================
+
+ **..........Task 2 .........**
+
+1.First, create a list of numbers from 1 to 10.
+   Example: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+2.Then, take out the first five elements from that list using slicing.
+  Result: [1, 2, 3, 4, 5]
+
+3.Reverse those five elements.
+  Result: [5, 4, 3, 2, 1]
+
+4.Finally, print both lists — the sliced list and the reversed list — to show the result.
